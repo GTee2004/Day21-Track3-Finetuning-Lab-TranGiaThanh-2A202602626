@@ -168,7 +168,7 @@ bố và bổ sung cách diễn đạt của nhóm urgency thấp, thay vì ch�
 
 ## 7. Kết luận & điều tôi học được
 
-**Kết luận (≥150 từ).** Tôi chưa nên deploy bản fine-tune này. Model đạt target 0.970 và
+Nhìn chung, bản fine-tune đạt kết quả rất tốt trên task chính nhưng chưa đủ an toàn để deploy. Model đạt target 0.970 và
 format 1.0, cao hơn rõ rệt so với base model dùng prompt tối ưu, nhưng regression giảm từ
 0.7911 xuống 0.4556 và latency tăng từ 997.5 lên 1414.9 ms/mẫu. Đây là đánh đổi không
 chấp nhận được nếu hệ thống vẫn cần xử lý yêu cầu ngoài miền triage. Mask là điều kiện
